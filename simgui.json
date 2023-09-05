@@ -1,0 +1,34 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "RomiGyro": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Pose": "Field2d"
+    },
+    "windows": {
+      "/SmartDashboard/Pose": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "SmartDashboard": {
+        "Pose": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  }
+}
